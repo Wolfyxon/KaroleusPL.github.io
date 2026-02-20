@@ -1,7 +1,7 @@
 let last_updated = "23.12.2025"
 
 function AddNav(){
-    document.getElementById("page_nav").innerHTML = `
+    document.querySelector("nav").innerHTML = `
                 <img src="../images/icons/KaroleusLogo.webp" alt="Karoleus logo">
                 <a id="nav_home" onmouseenter="NavButtonChange('nav_home', 1)"  onmouseleave="NavButtonChange('nav_home', 0)" href="../index.html"> HOME </a>
                 <a id="nav_about" onmouseenter="NavButtonChange('nav_about', 1)" onmouseleave="NavButtonChange('nav_about', 0)" href="about.html"> ABOUT </a>
