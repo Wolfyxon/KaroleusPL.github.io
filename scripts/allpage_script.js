@@ -2,7 +2,7 @@ let last_updated = "23.12.2025"
 
 function AddNav(){
     document.getElementById("page_nav").innerHTML = `
-                <img src="../images/icons/KaroleusLogo.webp">
+                <img src="../images/icons/KaroleusLogo.webp" alt="Karoleus logo">
                 <a id="nav_home" onmouseenter="NavButtonChange('nav_home', 1)"  onmouseleave="NavButtonChange('nav_home', 0)" href="../index.html"> HOME </a>
                 <a id="nav_about" onmouseenter="NavButtonChange('nav_about', 1)" onmouseleave="NavButtonChange('nav_about', 0)" href="about.html"> ABOUT </a>
                 <a id="nav_projects" onmouseenter="NavButtonChange('nav_projects', 1)" onmouseleave="NavButtonChange('nav_projects', 0)" href="projects.html"> PROJECTS </a>
